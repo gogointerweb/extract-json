@@ -1,6 +1,6 @@
 import json
 
-file = "garySITAupdate-request.json"
+file = "updaterequest.json"
 
 with open(file, "r") as json_file:
     update = json.load(json_file) #dict
